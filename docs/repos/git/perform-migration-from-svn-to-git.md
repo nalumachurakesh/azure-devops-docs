@@ -100,6 +100,11 @@ If you are using the standard trunk, branches, tags layout you'll just put `--st
 
 ```
 git svn clone ["SVN repo URL"] --prefix=svn/ --no-metadata --trunk=/trunk --branches=/branches --tags=/tags  --authors-file "authors-transform.txt" c:\mytempdir
+
+OR
+
+git svn clone ["SVN repo URL with project root folder "] --no-metadata -A "authors-transform.txt" c:\mytempdir
+
 ```
 
 > [!NOTE]
